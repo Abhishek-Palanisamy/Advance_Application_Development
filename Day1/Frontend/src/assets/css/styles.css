@@ -1,0 +1,205 @@
+.login-page1 {
+ margin-top: 6%;
+  }
+
+  center h6{
+    font-size: 25px;
+  }
+  .login1 {
+    width: 25%;
+    background: #FFF;
+    padding: 25px;
+    box-shadow: 1px 1px 1px 2px inset rgb(27, 26, 26);
+    border-radius: 2rem;
+    margin-right: auto; /* Center the container by pushing it to the left */
+    margin-left: 35%;
+  }
+  .borderbox{
+    outline: none;
+    border: 0;
+    background:none;
+    font-size: 16px;
+    padding: 5px;
+  }
+  
+  .form-login1 {
+    padding-top: 7%;
+  }
+  
+  .form-login1 label {
+    font-size: 17px;
+    margin-left: 20px;
+    font-weight:bolder;
+  }
+  
+  .input-email,
+  .input-password {
+    background: #ededed;
+    border-radius: 25px;
+    margin: 6px 0 9px 0;
+    padding: 10px;
+    display: flex;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    border-radius: 25px;
+    padding: 14px;
+    background: #1e25aa;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding-left: 1%;
+  }
+ 
+  button:hover {
+    opacity: 0.9;
+  }
+  h5{
+    padding-top: 6%;
+    color: black;
+    font-size: 13px;
+  }
+
+
+  /*Signup*/
+
+  .login-page2 {
+margin-left: 40%;
+  }
+  .login2 {
+    width: 40%;
+    background: #FFF;
+    padding: 25px;
+    box-shadow: 10px 10px 10px rgb(27, 26, 26);
+    border-radius: 1rem;
+
+  }
+  
+  .form-login2 {
+    padding-top: 7%;
+  }
+  
+  .form-login2 label {
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+
+  .input-email,
+  .input-password {
+    background: #ededed;
+    border-radius: 25px;
+    margin: 6px 0 9px 0;
+    padding: 10px;
+    display: flex;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  input[type="text"] {
+    width: 100%;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+  }
+  p{
+    color: black;
+    
+  }
+  button {
+    width: 100%;
+    border-radius: 25px;
+    padding: 14px;
+    background: #1e25aa;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  button:hover {
+    opacity: 0.9;
+  }
+  button {
+    padding: px 20px;
+    background-color: #1e25aa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+  
+  .form-login2 {
+    padding-top: 7%;
+  }
+  
+  .form-login2 label {
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+  
+  .input-email,
+  .input-password {
+    background: #ededed;
+    border-radius: 25px;
+    margin: 6px 0 9px 0;
+    padding: 10px;
+    display: flex;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  input[type="text"] {
+    width: 100%;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    border-radius: 25px;
+    padding: 14px;
+    background: #1e25aa;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+
+  center h2{
+    font-size: 20px;
+  }
+
+  .btn1 {
+   
+    background-color: #be6526;
+    color: #fff;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+  }

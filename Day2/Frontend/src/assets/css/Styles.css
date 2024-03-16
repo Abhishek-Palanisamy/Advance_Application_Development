@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box-form {
+  margin-top: 3%;
+  margin-left: 17%;
+  width: 62%;
+  border-radius: 10px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 20px 6px #08080885;
+}
+.left {
+  color: #ffffff;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-image: url("https://i.pinimg.com/736x/5d/73/ea/5d73eaabb25e3805de1f8cdea7df4a42--tumblr-backgrounds-iphone-phone-wallpapers-iphone-wallaper-tumblr.jpg");
+}
+.overlay {
+  padding: 310px;
+}
+.right {
+  flex: 3;
+}
+.right h1 {
+  padding-top: 30%;
+  padding-left: 7%;
+}
+.login-input {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.login-input {
+  margin-top: 9%;
+}
+
+.login-input input[type="text"],
+.login-input input[type="password"] {
+  width: 120%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #100c0c; /* Underline */
+  outline: none;
+  font-size: large;
+  color: #100c0c;
+}
+.login-input input::placeholder {
+  font-size: 16px;
+}
+.forget-password {
+  padding-left: 48%;
+  padding-bottom: 5%;
+}
+button {
+  margin-left: 20%;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 35px;
+  border-radius: 50px;
+  border: 0;
+  outline: 0;
+  background-image: linear-gradient(135deg, #181d49 10%, #383937 100%);
+}
+.signuplink {
+  padding-top: 6%;
+  padding-left: 2%;
+}
+
+
+/*Register*/
+.box-form1 {
+  margin-top: 3%;
+  margin-left: 17%;
+  width: 62%;
+  border-radius: 10px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 20px 6px #08080885;
+  overflow: hidden; /* Ensure background image doesn't overflow */
+}
+
+.left1 {
+  color: #ffffff;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-image: url("https://i.pinimg.com/736x/5d/73/ea/5d73eaabb25e3805de1f8cdea7df4a42--tumblr-backgrounds-iphone-phone-wallpapers-iphone-wallaper-tumblr.jpg");
+  background-position: right; /* Set background image to the right */
+}
+
+.overlay1 {
+  padding: 310px;
+}
+
+.right1 {
+  padding-left: 10%;
+  margin: 0;
+}
+
+.right1 h1 {
+  padding-top: 30%;
+  padding-left: 20%;
+}
+
+.login-input1 {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.login-input1 {
+  margin-top: 9%;
+}
+
+.login-input1 input[type="text"],
+.login-input1 input[type="password"],
+.login-input1 input[type="email"],
+.login-input1 input[type="tel"]
+ {
+  width: 120%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #100c0c; /* Underline */
+  outline: none;
+  font-size: large;
+  color: #100c0c;
+}
+
+.login-input1 input::placeholder {
+  font-size: 16px;
+}
+button {
+  margin-left: 20%;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 35px;
+  border-radius: 50px;
+  border: 0;
+  outline: 0;
+  background-image: linear-gradient(135deg, #181d49 10%, #383937 100%);
+}
+.loginlink{
+  padding-top: 6%;
+  padding-left: 2%;
+}
+
+
+/*Navbar*/
+.header-enclosure {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: rgb(237, 228, 228); 
+}
+
+.giftcraft-title {
+  padding: 10px; 
+}
+.logo-image{
+  height: 30px;
+}
+
+.header-menu {
+  list-style-type: none; 
+  display: flex;
+  padding: 0;
+  margin-right: 2%;
+}
+
+.header-menu li {
+  margin-right: 20px; 
+  position: relative;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+}
+.header-menu li:hover {
+  border-bottom: 2px solid black; 
+}
+
+
+/*Carousel*/
+.carousel {
+  position: relative;
+  width: 85%;  
+  margin: 0 auto;
+}
+
+.slides-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 0 0 auto;
+  width: 100%;
+  display: none;
+}
+
+.slide img {
+  margin-top: 1%;
+  width: 100%;
+  height: 60vh;  
+  margin-bottom: 2%;
+}
+
+.active {
+  display: block;
+}
+
+.home-container{
+  width: 85%;
+  padding-left: 7%;
+}
+.home-container h1{
+}
+
+
